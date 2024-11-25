@@ -1,0 +1,16 @@
+VAL versus VAR
+
+
+val = Abreviação de valor; usado quando a variavel não muda. (É preferida e é considerada uma boa prática)
+
+var = Abreviação de variavel, pode mudar ao longo do ciclo de vida da aplicação.
+
+
+Os Pontos Positivos daImutabilidade
+
+- Objetos Imutáveis são thread-safe;
+- Dados imutáveis facilitam o paralelismo.
+- Referência á objetos imutáveis podem ser cacheadas;
+- Menos peças "soltas", mais fácil de entender;
+
+(Alguns frameworks Java requerem Var)
